@@ -1,4 +1,4 @@
-const state = require('./state');
+const state = require('./StarWars-API/ADS-TrabAV2/state');
 
 function logDebug(...args) {
   if (state.debugMode) console.log(...args);

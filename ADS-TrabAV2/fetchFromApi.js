@@ -1,7 +1,7 @@
 
 const https = require('https');
 const state = require('./state');
-const { logDebug, addToCache, getFromCache, updateStats } = require('./utils');
+const { logDebug, addToCache, getFromCache, updateStats } = require('../../utils');
 
 async function fetchFromApi(endpoint) {
   const cachedData = getFromCache(endpoint);
